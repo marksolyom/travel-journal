@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Rajdhani&family=Roboto:wght@300&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
+
 }
+
+/* Title Section */
+
+.title-section {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fe585d;
+  box-shadow: 0 2px 5px #fe585d;
+}
+
+.title-section > img {
+  height: 50%;
+}
+
+.title-section > h3 {
+  margin-left: 6px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main Section */
+
