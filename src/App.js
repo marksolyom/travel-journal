@@ -14,7 +14,9 @@ export default function App() {
   return (
     <div className="App">
       <Title />
+      <div className='card-container'>
       {cardElement}
+      </div>
     </div>
   );
 };

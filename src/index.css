@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Rajdhani&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Rajdhani&family=Roboto:wght@300;400&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   background-color: white;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Title Section */
@@ -16,17 +16,78 @@ body {
   justify-content: center;
   background-color: #fe585d;
   box-shadow: 0 2px 5px #fe585d;
+  margin-bottom: 50px;
 }
 
 .title-section > img {
-  height: 50%;
+  height: 60%;
 }
 
 .title-section > h3 {
-  margin-left: 6px;
+  margin-left: 10px;
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
-/* Main Section */
+/* Cards */
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 250px;
+  width: 500px;
+  display: flex;
+  align-items:center;
+  margin-bottom: 30px;
+}
+
+.card-img {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+
+}
+
+.map-marker {
+  height: 15px;
+}
+
+.country-name {
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 1px;
+  margin: 0 10px 0 5px;
+}
+
+.maps-link {
+  text-decoration: none;
+  color: #666666;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.sight-title {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.visit-date {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.sight-description {
+  font-weight: 300;
+  font-size: 0.9rem;
+}

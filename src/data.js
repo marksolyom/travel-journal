@@ -24,10 +24,10 @@ export default [
         id: 3,
         title: "Hokkaido",
         location: "Japan",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        googleMapsUrl: "https://goo.gl/maps/xmputQZ28Qp3sVeZ6",
         startDate: "23 Oct, 2019",
         endDate: "30 Oct, 2019",
         description: "Hokkaido, the northernmost of Japan’s main islands, is known for its volcanoes, natural hot springs and ski areas.",
-        imageUrl: "https://images.pexels.com/photos/11759687/pexels-photo-11759687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    }
+        imageUrl: "https://images.unsplash.com/photo-1629725593792-727bbe2255b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    },
 ]
